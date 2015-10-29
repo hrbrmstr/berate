@@ -3,6 +3,8 @@ berate : Provide Insightful Motivation During Interactive Sessions
 
 No user exposed functions. Just add `library(berate)` to your `.Rprofile` or any interactive session to receive "helpful" motivations to code or type better.
 
+(emoji idea by @[richierocks](https://twitter.com/richierocks))
+
 ### News
 
 -   Version 0.0.0.9999 released
@@ -30,7 +32,7 @@ library(berate)
 library(testthat)
 
 date()
-#> [1] "Thu Oct 29 09:19:13 2015"
+#> [1] "Thu Oct 29 09:25:13 2015"
 
 test_dir("tests/")
 #> testthat results ========================================================================================================
