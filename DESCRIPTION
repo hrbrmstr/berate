@@ -1,8 +1,12 @@
 Package: berate
-Title: What the Package Does (one line, title case)
+Title: Provide Insightful Motivation During Interactive Sessions
 Version: 0.0.0.9000
 Authors@R: c(person("Bob", "Rudis", email = "bob@rudis.net", role = c("aut", "cre")))
-Description: What the package does (one paragraph).
-Depends: R (>= 3.2.2)
+Description: We've all been there. We do our best to crank out an analysis but those
+    pesky errors still remain. Why not add some helpful motivational information to
+    encourage you to be a bit more careful about what you type.
+Depends: R (>= 3.0.0)
 License: AGPL + file LICENSE
 LazyData: true
+Suggests: testthat
+Imports: xml2, rvest

@@ -1,0 +1,59 @@
+---
+output:
+  md_document:
+    variant: markdown_github
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "README-"
+)
+```
+
+berate : Provide Insightful Motivation During Interactive Sessions
+
+No user exposed functions. Just add `library(berate)` to your `.Rprofile` or any interactive session to receive "helpful" motivations to code or type better.
+
+### News
+
+- Version 0.0.0.9999 released
+
+### Installation
+
+```{r eval=FALSE}
+devtools::install_github("hrbrmstr/berate")
+```
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, error=FALSE}
+options(width=120)
+```
+
+### Usage
+
+```{r}
+library(berate)
+
+# current verison
+packageVersion("berate")
+
+```
+
+### Test Results
+
+```{r}
+library(berate)
+library(testthat)
+
+date()
+
+test_dir("tests/")
+```
+
+### Code of Conduct
+
+Please note that this project is released with a [Contributor Code of Conduct](CONDUCT.md). 
+By participating in this project you agree to abide by its terms.
